@@ -63,9 +63,6 @@ body {
     height: 100%;
 }
 
-.header-left, .header-right {
-    /* width: 50%; */
-}
 
 .header-menu-list {
     display: flex;
@@ -94,34 +91,32 @@ body {
 
 /* Search section */
 
-.form-control{
+.form-control {
     padding-right:1000;
     font-size:15px;
     font-style:oblique;
 }
 
-.input-group{
+.input-group {
     padding: 16px;
     margin: 10px;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;  
  }
 
-.btn-default{
+.btn-default {
     color:#fff;
-      background-color:#4d8bd3; 
-      padding:10px;
-      font-size: 17px;
-      border: none;
-      cursor: pointer;
+    background-color:#4d8bd3; 
+    padding:10px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
 
-.red{
+.red {
     margin:10px;
 }
 
-.black{
-    text-align:end;
-    
+.black {
+    text-align:end;  
 }
