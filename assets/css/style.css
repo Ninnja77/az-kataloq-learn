@@ -1,4 +1,5 @@
-body, ul {
+body,
+ul {
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -40,11 +41,11 @@ ul li {
     src: url('../font/Proxima/ProximaNova-Regular.woff2') format('woff2'),
         url('../font/Proxima/ProximaNova-Regular.woff') format('woff');
 }
-  
+
 @font-face {
     font-family: 'ProximaNovaBold';
     src: url('../font/Proxima/ProximaNova-Bold.woff2') format('woff2'),
-    url('../font/Proxima/ProximaNova-Bold.woff') format('woff');
+        url('../font/Proxima/ProximaNova-Bold.woff') format('woff');
 }
 
 body {
@@ -69,7 +70,7 @@ body {
 }
 
 .header-menu-list .nav-link {
-    color:#fff;
+    color: #fff;
     font-size: 16px;
     text-decoration: none;
     display: block;
@@ -89,32 +90,63 @@ body {
 }
 
 /* Search section */
-.form-control {
-    padding-right:1000;
-    font-size:15px;
-    font-style:oblique;
+body {
+    background-color: #E5E5E5;
 }
 
 .input-group {
     padding: 16px;
     margin: 10px;
     display: flex;
-    flex-direction: row;  
- }
+    flex-direction: row;
+}
+
+input[type=text] {
+    width: 1230px;
+    height: 42px;
+    top: 70px;
+    font-size: 20px;
+    font-style: oblique;
+    background: #ffffff;
+    border: #ecebed solid 2px;
+    padding: 12px 20px 12px 40px;
+}
+
+.input-group-btn {
+    background: #5A99C1;
+    border-radius: 1px 5px 5px 1px;
+    display: flex;
+    align-items: center;
+}
 
 .btn-default {
-    color:#fff;
-    background-color:#4d8bd3; 
-    padding:10px;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
+    color: white;
+    background: #5A99C1;
+    font-size: 16px;
+    padding: 5px 12px 5px 13px;
+    margin: 3px 2px 1px;
+    height: 38px;
+    border: 0;
+    color: #ffffff;
 }
 
-.red {
-    margin:10px;
+.glyphicon-search {
+    font-style: normal;
+    font-weight: bold;
+    padding: 5px 4px 5px;
 }
 
-.black {
-    text-align:end;  
+.search-icon {
+    margin: 0;
+    padding: 0;
+    left: 2.9%;
+    position: absolute;
+    top: 14.2%;
+}
+
+.shape-icon {
+    position: absolute;
+    left: 90.25%;
+    top: 13.7%;
+    padding: 2px 0px 2px 2px;
 }
