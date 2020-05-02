@@ -150,3 +150,15 @@ input[type=text] {
     top: 13.7%;
     padding: 2px 0px 2px 2px;
 }
+
+.cities {
+    position: absolute;
+    margin-left: 2.2%;
+    top:18.2%;
+}
+
+.note {
+    position: absolute;
+    left: 90.25%;
+    top:18.2%;
+}
