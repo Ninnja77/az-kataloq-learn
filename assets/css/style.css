@@ -55,7 +55,7 @@ body {
 
 /* Header section */
 .header {
-    width: 100%;
+    width: 105%;
     height: 50px;
     background: black;
 }
@@ -91,25 +91,31 @@ body {
 
 /* Search section */
 body {
-    background-color: #E5E5E5;
+    background-color: #ececec;
+    position: relative;
+    width: 1280px;
+    height: 1433px;
+
 }
 
 .input-group {
+    width:100%;
     padding: 16px;
     margin: 10px;
     display: flex;
     flex-direction: row;
 }
 
-input[type=text] {
-    width: 1230px;
-    height: 42px;
-    top: 70px;
+.search-btn {
+    width: 1330px;
+    height: 45px;
+    top: 78px;
     font-size: 20px;
     font-style: oblique;
     background: #ffffff;
     border: #ecebed solid 2px;
     padding: 12px 20px 12px 40px;
+
 }
 
 .input-group-btn {
@@ -125,7 +131,7 @@ input[type=text] {
     font-size: 16px;
     padding: 5px 12px 5px 13px;
     margin: 3px 2px 1px;
-    height: 38px;
+    height: 35px;
     border: 0;
     color: #ffffff;
 }
@@ -137,28 +143,25 @@ input[type=text] {
 }
 
 .search-icon {
+    font-size: 16px;
     margin: 0;
-    padding: 0;
-    left: 2.9%;
+    left: 40px;
     position: absolute;
-    top: 14.2%;
+    top: 92px;
+    padding: 0px 1px 2px 2px;
 }
 
-.shape-icon {
-    position: absolute;
-    left: 90.25%;
-    top: 13.7%;
-    padding: 2px 1px 2px 2px;
-}
+/* .shape-icon {
+} */
 
 .cities {
-    position: absolute;
-    margin-left: 2.2%;
-    top:18.2%;
+    position: relative;
+    margin-left: 45px;
+    bottom:45px;
 }
 
 .note {
-    position: absolute;
-    left: 90.25%;
-    top:18.2%;
+   position: relative;
+   left:92%;
+   bottom:75px;
 }
