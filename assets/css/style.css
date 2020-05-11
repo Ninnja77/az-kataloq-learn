@@ -139,7 +139,28 @@ body {
 }
 
 .cities {
+    color: #1F1C1C;
+    padding: 4px;
+    text-decoration-line: underline;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.note {
+    float: right;
+    padding: 5px;
+    width: 91.0%;
+    text-align: end;
+    color: #1F1C1C;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
 }
