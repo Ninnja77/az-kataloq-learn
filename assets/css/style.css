@@ -164,3 +164,97 @@ body {
     font-weight: bold;
     font-size: 15px;
 }
+
+/*-------img-------*/
+.img-section {
+    display: flex;
+    position: relative;
+    vertical-align: 200px;
+    justify-content: space-between;
+}
+
+
+.word-1 {
+    position: relative;
+    width: 218px;
+    height: 88px;
+    left: 98px;
+    bottom: 315px;
+    font-weight: 600;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 44px;
+}
+
+.min-word {
+    position: relative;
+    width: 218px;
+    height: 88px;
+    left: 100px;
+    bottom: 345px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.word-2 {
+    position: relative;
+    width: 400px;
+    left: 5px;
+    bottom: 310px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.min-word-2 {
+    position: relative;
+    width: 218px;
+    height: 88px;
+    left: 100px;
+    bottom: 341px;
+    font-family: Proxima Nova;
+    line-height: 14px;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.word-3 {
+    position: relative;
+    width: 350px;
+    left: 27px;
+    bottom: 310px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.min-word-3 {
+    position: relative;
+    width: 218px;
+    height: 88px;
+    left: 100px;
+    bottom: 341px;
+    font-family: Proxima Nova;
+    line-height: 14px;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
