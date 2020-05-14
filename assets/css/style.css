@@ -3,10 +3,13 @@ body {
 }
 
 body,
+h1,
+h2,
+h3,
+p,
 ul {
     margin: 0;
     padding: 0;
-    font-size: 16px;
 }
 
 
@@ -16,7 +19,7 @@ ul li {
 
 /* Common class. */
 .container {
-    max-width: 1260px;
+    max-width: 1240px;
     width: 100%;
     margin: 0 auto;
 }
@@ -149,20 +152,13 @@ body {
 
 .box {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    font-size: 15px;
-}
-
-.note {
-    float: right;
-    padding: 5px;
-    width: 91.0%;
-    text-align: end;
-    color: #1F1C1C;
-    font-family: Proxima Nova;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 /*-------img-------*/
@@ -172,35 +168,28 @@ body {
 }
 
 .images-box {
-    width: 420px;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
 }
 
-.img-box {
-    width: 420px;
+.images-box:not(:first-child) {
+    margin-left: 20px;
 }
 
 .images-text {
-    height: 140px;
     position: absolute;
-    bottom: 170px;
-    margin-left: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 20px;
-    font-weight: 500;
     color: white;
-    font-size: 48px;
     text-align: center;
-    line-height: 40px;
+    font-weight: bold;
 }
 
 .wrapper {
-    width: 310px;
-    font-weight: bold;
-}
-
-.word {
-    font-weight: bold;
-    font-size: 15px;
-    width: 285px;
-    position: absolute;
-    top: 120px;
+    font-size: 48px;
+    line-height: 45px;
+    margin-bottom: 15px;
 }
